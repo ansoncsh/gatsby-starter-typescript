@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutPage renders correctly 1`] = `
+<div>
+  <p>
+    Welcome to about page
+  </p>
+  <a
+    aria-current="page"
+    className=""
+    href="/"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    style={Object {}}
+  >
+    Go back to the homepage
+  </a>
+</div>
+`;
