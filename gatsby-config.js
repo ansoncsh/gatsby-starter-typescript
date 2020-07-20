@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/gatsby-starter-typescript",
   siteMetadata: {
     title: `Gatsby Typescript Starter`,
   },

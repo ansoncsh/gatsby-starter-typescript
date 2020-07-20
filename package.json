@@ -12,7 +12,8 @@
     "build": "gatsby build",
     "develop": "gatsby develop --open",
     "format": "prettier --parser typescript --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.ts*\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gh": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "@types/node": "^14.0.14",
