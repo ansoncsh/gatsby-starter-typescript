@@ -7,13 +7,11 @@ describe("IndexPage", () => {
         const data = {
             site: {
                 siteMetadata: {
-                    title: `Gatsby Typescript Starter`
-                }
-            }
+                    title: `Gatsby Typescript Starter`,
+                },
+            },
         }
-        const tree = renderer
-            .create(<IndexPage data={data}/>)
-            .toJSON()
+        const tree = renderer.create(<IndexPage data={data} />).toJSON()
         expect(tree).toMatchSnapshot()
     })
 })

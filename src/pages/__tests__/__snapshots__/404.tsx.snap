@@ -9,4 +9,4 @@ exports[`NotFoundPage renders correctly 1`] = `
     You just hit a route that doesn't exist... the sadness.
   </p>
 </div>
-`;
+`

@@ -11,7 +11,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop --open",
-    "format": "prettier --parser typescript --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.ts*\"",
+    "format": "prettier --parser typescript --write \"src/**/*.ts*\"",
     "test": "jest",
     "test-watch": "npm run test -- --watch",
     "gh": "gatsby build --prefix-paths && gh-pages -d public"
