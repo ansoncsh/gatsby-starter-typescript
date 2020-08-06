@@ -1,14 +1,14 @@
-import React from "react"
+import React, { ReactElement } from "react"
 import { Helmet } from "react-helmet"
 import Header from "./Header"
 
 import "./index.css"
 
 interface LayoutProps {
-    children: any
+    children: ReactElement
 }
 
-const Layout = (props: LayoutProps) => {
+const Layout = (props: LayoutProps): ReactElement => {
     return (
         <div>
             <Helmet

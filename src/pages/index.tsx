@@ -1,4 +1,4 @@
-import React from "react"
+import React, { ReactElement } from "react"
 import Link from "gatsby-link"
 import { graphql } from "gatsby"
 
@@ -12,7 +12,7 @@ interface IndexPageProps {
     }
 }
 
-const IndexPage = (props: IndexPageProps) => {
+const IndexPage = (props: IndexPageProps): ReactElement => {
     return (
         <div>
             <h1>Hi people</h1>

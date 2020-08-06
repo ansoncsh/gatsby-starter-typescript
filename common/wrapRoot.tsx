@@ -1,6 +1,13 @@
-import React from "react"
-import Layout from '../src/Layout'
+import React, { ReactElement } from "react"
+import { WrapRootElementBrowserArgs } from "gatsby"
+import Layout from "../src/Layout"
 
-export default (props:any) => {
-  return <Layout>{props.element}</Layout>
+const wrapRoot = (props: WrapRootElementBrowserArgs): ReactElement => {
+    return (
+        <Layout>
+            <div>{props.element}</div>
+        </Layout>
+    )
 }
+
+export default wrapRoot

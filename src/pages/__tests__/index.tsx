@@ -7,7 +7,7 @@ describe("IndexPage", () => {
         const data = {
             site: {
                 siteMetadata: {
-                    title: `Gatsby Typescript Starter`,
+                    title: "Gatsby Typescript Starter",
                 },
             },
         }

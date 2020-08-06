@@ -1,7 +1,7 @@
-import React from "react"
+import React, { ReactElement } from "react"
 import { Link } from "gatsby"
 
-const Header = () => (
+const Header = (): ReactElement => (
     <div
         style={{
             background: "rebeccapurple",
